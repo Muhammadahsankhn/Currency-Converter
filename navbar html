@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        
+        <div class="info">
+            <i class="fa-regular fa-envelope"></i>
+            <p>info@SaylaniWelfare.com</p>
+        </div>
+        <div class="phone">
+            <i class="fa-solid fa-phone-flip"></i>
+            <p>021-111-729-526</p>
+        </div>
+        <div class="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <p>+923111729526</p>
+        </div>
+        <div class="web">
+            <p>Visit Our other websites:</p>
+            <img class="fflag" src="./imagess/Flag_of_the_United_Kingdom.svg.png" alt="UK flags">
+            <img class="fflag" src="./imagess/united-states.webp" alt="USA">
+            <img class="fflag" src="./imagess/Flag_of_Canada.webp" alt="Flag_of_Canada">
+            <img class="fflag" src="./imagess/Flag-Turkey.webp" alt="Flag-Turkey">
+        </div>
+        <div>
+            <button id="English" type="button">English</button>
+        </div>
+    </div>
+    
+    
+    <header>
+        <div class="navbar">
+            <div class="nav-items">
+                <div class="navimg">
+                    <img src="./imagess/logo_saylaniwelfareusa.22bf709605809177256c.png" alt="saylani" height="55px">
+                </div>
+                <div class="navites">
+                    <div class="navnaes">
+                        <p class="para">HOME</p>
+                        <p class="para">ABOUT</p>
+                        <p class="para">SERVICES</p>
+                        <p class="para">MEDIA</p>
+                        <p class="para">CONTACT US</p>
+                        <p class="para">BANK DETAILS</p>
+                        <p class="para color-change">OTHER WEBSITE</p>
+                    </div>
+                    <div class="navpress">
+                        <button id="donate" type="button">DONATE NOW</button>
+                        <button id="sponsor" type="button">BE A SPONSOR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="main">
+        <div class="box">
+
+        </div>
+        <div class="text">
+            <div class="first">
+                <p><b>Welcome to the <span id="green">Saylani</span> Welfare</b></p>
+            </div>
+            <div class="wrapper">
+                <div class="static">
+                    <b>The largest NGO offering free</b>
+                </div>
+                <ul class="dynamic-text">
+                    <li><span>Education,</span></li>
+                    <li><span>IT and Vocational Trainings,</span></li>     
+                    <li><span>Daily Meals,</span></li>     
+                    <li><span>Monthly Family Support,</span></li>
+                    <li><span>Assistance to disaster affectees,</span></li> 
+                    <li><span>Clean Water,</span></li>
+                </ul>
+            </div>
+            
+            <div class="ttext">
+                <p>Saylani Welfare is on the ground and already working with local communities to assess how best to support underprivileged families in more than 63 areas of day to day lives.</p>
+            </div>
+            
+            <div class="explore">
+                <button id="explorepress" type="button" >Explore more <i class="fa-solid fa-arrow-right"></i></button> 
+            </div>
+            <div class="boxx">
+
+            </div>
+        </div>
+    
+        <div class="saylani-img">
+            <img src="./imagess/saylani.jpeg" alt="smit">
+        </div>
+    </div>
+    
+</body>
+</html>
